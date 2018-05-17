@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Page Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/finance_array.js"></script>
+    
+</head>
+
+<body>
+<div class="mainpage" data-role="page">
+	<div class="profile-head">
+		<h1>Grocery Shopping!</h1>
+        
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+	<form>
+			<fieldset data-role="ui-field-contain"> 
+				<label for="item">Item:</label>
+				<input type="text" name="item" id="item">
+			</fieldset>
+    <fieldset data-role="ui-field-contain"> 
+		<label for="price">Price:</label>
+					<input type="number" name="price" id="price" placeholder="SGD" value="">
+				</fieldset>
+    <input id="add" type="button" value="Add">
+    </form>
+	  <table data-role="table" id="table-column-toggle" class="ui-responsive table-stroke">
+	              <thead>
+	                <tr>
+	                  <th data-priority="1">No</th>
+	                  <th>Item</th>
+	                  <th data-priority="3">Price</th>
+	                 
+	                </tr>
+	              </thead>
+	              <tbody class="itemtable">	                     
+	              </tbody>
+                  <tbody class="totaltable">	                     
+                  <tr><th></th><td>Total</td><td>$0</td></tr>
+	              </tbody>
+	            </table>
+    </div>
+           
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+</body>
+</html>
