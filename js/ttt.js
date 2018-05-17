@@ -249,15 +249,15 @@ $("#clear").click(function(){
 	end = 0;
 	$("#clear").hide();
 	$("#display").html("")
-	$('#btn1').html("<img id='1' width='140px' hieght='140px' src='blank.gif'>");
-	$('#btn2').html("<img id='2' width='140px' hieght='140px' src='blank.gif'>");
-	$('#btn3').html("<img id='3' width='140px' hieght='140px' src='blank.gif'>");
-	$('#btn4').html("<img id='4' width='140px' hieght='140px' src='blank.gif'>");
-	$('#btn5').html("<img id='5' width='140px' hieght='140px' src='blank.gif'>");
-	$('#btn6').html("<img id='6' width='140px' hieght='140px' src='blank.gif'>");
-	$('#btn7').html("<img id='7' width='140px' hieght='140px' src='blank.gif'>");
-	$('#btn8').html("<img id='8' width='140px' hieght='140px' src='blank.gif'>");
-	$('#btn9').html("<img id='9' width='140px' hieght='140px' src='blank.gif'>");
+	$('#btn1').html("<img id='1' width='50px' hieght='50px' src='blank.png'>");
+	$('#btn2').html("<img id='2' width='50px' hieght='50px' src='blank.png'>");
+	$('#btn3').html("<img id='3' width='50px' hieght='50px' src='blank.png'>");
+	$('#btn4').html("<img id='4' width='50px' hieght='50px' src='blank.png'>");
+	$('#btn5').html("<img id='5' width='50px' hieght='50px' src='blank.png'>");
+	$('#btn6').html("<img id='6' width='50px' hieght='50px' src='blank.png'>");
+	$('#btn7').html("<img id='7' width='50px' hieght='50px' src='blank.png'>");
+	$('#btn8').html("<img id='8' width='50px' hieght='50px' src='blank.png'>");
+	$('#btn9').html("<img id='9' width='50px' hieght='50px' src='blank.png'>");
 	});	
 
 
